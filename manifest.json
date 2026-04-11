@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Session Recorder",
+  "version": "1.0.0",
+  "description": "Record your browser tab as video (session capture).",
+  "permissions": ["tabCapture", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Session Recorder"
+  },
+  "minimum_chrome_version": "116"
+}

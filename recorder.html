@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recording — Session Recorder</title>
+    <link rel="stylesheet" href="recorder.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Session recording</h1>
+      <p class="meta" id="meta"></p>
+      <div class="preview-wrap">
+        <video id="preview" autoplay muted playsinline></video>
+      </div>
+      <div class="actions">
+        <button type="button" id="start" class="btn primary">Start</button>
+        <button type="button" id="stop" class="btn" disabled>Stop & save</button>
+      </div>
+      <p id="status" class="status" role="status"></p>
+    </main>
+    <script src="recorder.js" type="module"></script>
+  </body>
+</html>
